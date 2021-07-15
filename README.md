@@ -2,30 +2,23 @@
 ### Created By Vadsak Princy Hareshbhai  On 15 July 2021
 
 #  WeatherApp Application Using Application
-In this application we use the file manager for add new notes,modify existing notes and delete the notes.
+In this application we use the api key with json data parsing.This application is use for the weather information of any city search by user.
 
-In this application, first page is use for the login .it display the username and password textfild and login button and enter the user name and password and its not match with actual username and password then its give the alert for mismatch and the password and username is correct then going to inside the app and in this first display the list of notes .if exist otherwise blank tableview.and the display "+" in above for the add new notes.if click on the "+" then its go to the page for insert the new notes.in this  page textfild for the notes name and textview for the notes data.and save button for the save notes.click on save button then alert for successfully add notes ans this notes is display on the previous page.if user want to upadte the exist notes then click on that row where list on notes then its go to the page of upadate the data like insert but user chage the data of notes and click on save button then alert for succeessfylly created notes. if user want to delete the notes then swipe left on that row then click on delete button and its confirm from user for delete the notes again.if user click on yes then delete it.and user logout using above beside the "+" button cancel  click then user go to the first page(login) of the application.
+In this application, first page is display the lable for the welcom and button for go inside the application.then next page ask for the cityname for which city user want to weather detail.so user enter the  city name and click on the search button then go to the next page which is display the detail about the weather of city which is search by user.and user can search from this page above search bar .user enter the city name then press enter key and this city information of weather is displayed below.it change the previous detail with recent search city.
 
 # List Of Elements Which Is Use In This Application:
 * UIButton
+* UILable
 * UITextfield
 * UITableView
 * UIImageView
+* Api Key
+* Json data parsing
 * Navigation controller
-
-# Task Perform In This Application:
-* Login (With UserDefaults)
-* Add New Notes
-* Modify Existing Note
-* Display List Of Notes (Using Table View)
-* Delete Notes
-* Logout (With UserDefaults)
 
 # Gif Of WeatherApp Application 
 
 ![GifForWeatherApp](https://user-images.githubusercontent.com/81640415/125811721-a8a48da8-2188-4d96-8aad-36bec8c33d1b.gif)
-![gifofweatherapp](https://user-images.githubusercontent.com/81640415/125812308-deb71143-3cfe-4f8d-b6e1-79c7449f5c44.gif)
-
 
 
 # Screenshots Of WeatherApp Application 
@@ -42,5 +35,3 @@ In this application, first page is use for the login .it display the username an
 
 ![6](https://user-images.githubusercontent.com/81640415/125804488-449e6857-06df-4795-bb63-51d33be759fa.png)
 
-
- 
