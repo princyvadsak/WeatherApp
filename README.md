@@ -12,9 +12,6 @@ In this application, first page is display the lable for the welcom and button f
 * UITextfield
 * UITableView
 * UIImageView
-* Api Key
-* Json data parsing
-* Navigation controller
 
 # Gif Of WeatherApp Application 
 
